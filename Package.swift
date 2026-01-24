@@ -15,6 +15,7 @@ let package = Package(
         ),
     ],
     dependencies: [
+        .package(name: "NvEffectFrameworks", path: "../NvEffectFrameworks"),
         .package(url: "https://github.com/marmelroy/Zip.git", .upToNextMinor(from: "2.1.0")),
         .package(url: "https://github.com/SDWebImage/SDWebImageWebPCoder.git", from: "0.3.0"),
         //.package(name: "NvMeicam", path: "../NvMeicam"), // 如果有的话
@@ -26,8 +27,8 @@ let package = Package(
                 //"NvMeicam",
                 .product(name: "Zip", package: "Zip"),
                 .product(name: "SDWebImageWebPCoder", package: "SDWebImageWebPCoder"),
-                "NveEffectKit",
-                "NvEffectSdkCore"
+                .product(name: "NveEffectKit", package: "NvEffectFrameworks"),
+                .product(name: "NvEffectSdkCore", package: "NvEffectFrameworks"),
             ],
             path: "NvMaterialLibrary/NvMaterialLibrary",
             sources: ["SourceFiles"],
@@ -35,14 +36,6 @@ let package = Package(
                 .process("Resources/Assets.xcassets"),
                 .copy("Resources/NvMaterialUIX.bundle")
             ]
-        ),
-        .binaryTarget(
-            name: "NveEffectKit",
-            path: "../Frameworks/NveEffectKit.xcframework"
-        ),
-        .binaryTarget(
-            name: "NvEffectSdkCore",
-            path: "../Frameworks/NvEffectSdkCore.xcframework"
         )
     ]
 )

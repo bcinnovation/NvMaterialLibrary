@@ -40,6 +40,8 @@
 		DD4587BF2E6575AA00D05F8B /* NvAssetEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4587942E6575AA00D05F8B /* NvAssetEmptyView.swift */; };
 		DD4587C02E6575AA00D05F8B /* NvRefreshFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4587862E6575AA00D05F8B /* NvRefreshFooter.swift */; };
 		DD4587C12E6575AA00D05F8B /* NvWeakDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4587802E6575AA00D05F8B /* NvWeakDictionary.swift */; };
+		DD4587C22E6575AA00D05F8B /* NveEffectKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4587C32E6575AA00D05F8B /* NveEffectKit.framework */; };
+		DD4587C42E6575AA00D05F8B /* NvEffectSdkCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4587C52E6575AA00D05F8B /* NvEffectSdkCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +79,8 @@
 		DD45879B2E6575AA00D05F8B /* NvMaterialUIXEnvs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NvMaterialUIXEnvs.swift; sourceTree = "<group>"; };
 		DD45879C2E6575AA00D05F8B /* UICollectionView+NvReusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+NvReusable.swift"; sourceTree = "<group>"; };
 		DD45879F2E6575AA00D05F8B /* NvMaterialLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NvMaterialLibrary.h; sourceTree = "<group>"; };
+		DD4587C32E6575AA00D05F8B /* NveEffectKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NveEffectKit.framework; path = ../Frameworks/NveEffectKit.framework; sourceTree = "<group>"; };
+		DD4587C52E6575AA00D05F8B /* NvEffectSdkCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NvEffectSdkCore.framework; path = ../Frameworks/NvEffectSdkCore.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD4587C22E6575AA00D05F8B /* NveEffectKit.framework in Frameworks */,
+				DD4587C42E6575AA00D05F8B /* NvEffectSdkCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +101,7 @@
 			children = (
 				DD4587A02E6575AA00D05F8B /* NvMaterialLibrary */,
 				0A4E9C4427B79F45006B1FC8 /* Products */,
+				DD4587C62E6575AA00D05F8B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +111,15 @@
 				0A4E9C4327B79F45006B1FC8 /* NvMaterialLibrary.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		DD4587C62E6575AA00D05F8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD4587C32E6575AA00D05F8B /* NveEffectKit.framework */,
+				DD4587C52E6575AA00D05F8B /* NvEffectSdkCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		DD4587782E6575AA00D05F8B /* Resources */ = {
@@ -476,6 +492,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../Frameworks",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -507,6 +527,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../Frameworks",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";

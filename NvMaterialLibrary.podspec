@@ -21,12 +21,6 @@ Pod::Spec.new do |spec|
   spec.static_framework      = false
   spec.ios.deployment_target = '12.0'
   spec.ios.requires_arc      = true
-  spec.ios.xcconfig = {
-    'FRAMEWORK_SEARCH_PATHS' => [#为子工程配置framework路径
-    '$(SRCROOT)/../../../../lib/ios'
-    ]
-  }
-
   spec.ios.pod_target_xcconfig   = {
     'SWIFT_VERSION'                    => '5.0',
     'ENABLE_BITCODE'                   => 'NO',
@@ -39,6 +33,7 @@ Pod::Spec.new do |spec|
     s.source_files = 'NvMaterialLibrary/NvMaterialLibrary/SourceFiles/**/*'
   end
   
+  spec.ios.dependency     'NvEffectFrameworks'
   spec.ios.dependency     'Zip'
   spec.ios.dependency     'SDWebImageWebPCoder'
 
