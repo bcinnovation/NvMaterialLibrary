@@ -1,0 +1,17 @@
+"NvRefreshFooterIdleText" = "点击或上拉加载更多";
+"NvRefreshFooterPullingText" = "松开立即加载更多";
+"NvRefreshFooterRefreshingText" = "正在加载更多的数据...";
+"NvRefreshFooterNoMoreDataText" = "已经全部加载完毕";
+
+"NvRefreshTrailerIdleText" = "滑动加载更多";
+"NvRefreshTrailerPullingText" = "松开立即刷新";
+"NvRefreshTrailerRefreshingText" = "正在加载";
+"NvRefreshTrailerNoMoreDataText" = "已全部加载";
+
+
+"material_list_network_error"="网络错误，请重新刷新";
+"material_list_empty"="暂无可用素材";
+"material_none"="无";
+
+
+"material_installation_failed"="素材安装失败";

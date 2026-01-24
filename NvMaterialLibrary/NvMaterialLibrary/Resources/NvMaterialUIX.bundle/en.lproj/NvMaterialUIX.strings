@@ -1,0 +1,17 @@
+"NvRefreshFooterIdleText" = "Tap or pull up to load more";
+"NvRefreshFooterPullingText" = "Release to refresh";
+"NvRefreshFooterRefreshingText" = "Loading...";
+"NvRefreshFooterNoMoreDataText" = "No more data";
+
+"NvRefreshTrailerIdleText" = "Pull down to refresh";
+"NvRefreshTrailerPullingText" = "Release to refresh";
+"NvRefreshTrailerRefreshingText" = "Loading";
+"NvRefreshTrailerNoMoreDataText" = "No more data";
+
+"material_list_network_error"="Please check your network, and refresh again";
+"material_list_empty"="You haven't any available material yet";
+"material_none"="None";
+
+
+
+"material_installation_failed"="Material installation failed";

@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD4587A12E6575AA00D05F8B /* NvMaterialLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = DD45879F2E6575AA00D05F8B /* NvMaterialLibrary.h */; };
+		DD4587A22E6575AA00D05F8B /* NvMaterialUIX.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DD4587762E6575AA00D05F8B /* NvMaterialUIX.bundle */; };
+		DD4587A32E6575AA00D05F8B /* NvRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DD4587772E6575AA00D05F8B /* NvRefresh.bundle */; };
+		DD4587A42E6575AA00D05F8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4587752E6575AA00D05F8B /* Assets.xcassets */; };
+		DD4587A52E6575AA00D05F8B /* NvRefreshConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4587852E6575AA00D05F8B /* NvRefreshConst.swift */; };
+		DD4587A62E6575AA00D05F8B /* NvMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD45877A2E6575AA00D05F8B /* NvMaterial.swift */; };
+		DD4587A72E6575AA00D05F8B /* NvAssetDownloadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4587932E6575AA00D05F8B /* NvAssetDownloadCell.swift */; };
+		DD4587A82E6575AA00D05F8B /* NvMaterialListViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD45879A2E6575AA00D05F8B /* NvMaterialListViewLayout.swift */; };
+		DD4587A92E6575AA00D05F8B /* NvRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4587872E6575AA00D05F8B /* NvRefreshHeader.swift */; };
+		DD4587AA2E6575AA00D05F8B /* NvCarouselLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4587952E6575AA00D05F8B /* NvCarouselLabel.swift */; };
+		DD4587AB2E6575AA00D05F8B /* NvMaterialCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4587982E6575AA00D05F8B /* NvMaterialCell.swift */; };
+		DD4587AC2E6575AA00D05F8B /* UICollectionView+NvReusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD45879C2E6575AA00D05F8B /* UICollectionView+NvReusable.swift */; };
+		DD4587AD2E6575AA00D05F8B /* NvRefreshAutoTrailer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD45878C2E6575AA00D05F8B /* NvRefreshAutoTrailer.swift */; };
+		DD4587AE2E6575AA00D05F8B /* NvRefreshTrailer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4587882E6575AA00D05F8B /* NvRefreshTrailer.swift */; };
+		DD4587AF2E6575AA00D05F8B /* NvMaterialCenter+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD45877C2E6575AA00D05F8B /* NvMaterialCenter+extension.swift */; };
+		DD4587B02E6575AA00D05F8B /* NvRefreshAutoHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD45878B2E6575AA00D05F8B /* NvRefreshAutoHeader.swift */; };
+		DD4587B12E6575AA00D05F8B /* UIView+Refresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4587902E6575AA00D05F8B /* UIView+Refresh.swift */; };
+		DD4587B22E6575AA00D05F8B /* Bundle+Refresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD45878E2E6575AA00D05F8B /* Bundle+Refresh.swift */; };
+		DD4587B32E6575AA00D05F8B /* NvRefreshComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4587842E6575AA00D05F8B /* NvRefreshComponent.swift */; };
+		DD4587B42E6575AA00D05F8B /* NvLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4587792E6575AA00D05F8B /* NvLogger.swift */; };
+		DD4587B52E6575AA00D05F8B /* NvRefreshAutoFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD45878A2E6575AA00D05F8B /* NvRefreshAutoFooter.swift */; };
+		DD4587B62E6575AA00D05F8B /* NvMaterialCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD45877B2E6575AA00D05F8B /* NvMaterialCenter.swift */; };
+		DD4587B72E6575AA00D05F8B /* NvMaterialListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4587992E6575AA00D05F8B /* NvMaterialListView.swift */; };
+		DD4587B82E6575AA00D05F8B /* NvMaterialUIXEnvs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD45879B2E6575AA00D05F8B /* NvMaterialUIXEnvs.swift */; };
+		DD4587B92E6575AA00D05F8B /* NvMaterialLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD45877F2E6575AA00D05F8B /* NvMaterialLibrary.swift */; };
+		DD4587BA2E6575AA00D05F8B /* NvMaterialCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4587972E6575AA00D05F8B /* NvMaterialCategoryView.swift */; };
+		DD4587BB2E6575AA00D05F8B /* UIImageView+WebImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4587822E6575AA00D05F8B /* UIImageView+WebImage.swift */; };
+		DD4587BC2E6575AA00D05F8B /* NvMaterialDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD45877E2E6575AA00D05F8B /* NvMaterialDatabase.swift */; };
+		DD4587BD2E6575AA00D05F8B /* UIScrollView+Refresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD45878F2E6575AA00D05F8B /* UIScrollView+Refresh.swift */; };
+		DD4587BE2E6575AA00D05F8B /* NvMaterialCenterNetDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD45877D2E6575AA00D05F8B /* NvMaterialCenterNetDelegate.swift */; };
+		DD4587BF2E6575AA00D05F8B /* NvAssetEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4587942E6575AA00D05F8B /* NvAssetEmptyView.swift */; };
+		DD4587C02E6575AA00D05F8B /* NvRefreshFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4587862E6575AA00D05F8B /* NvRefreshFooter.swift */; };
+		DD4587C12E6575AA00D05F8B /* NvWeakDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4587802E6575AA00D05F8B /* NvWeakDictionary.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A4E9C4327B79F45006B1FC8 /* NvMaterialLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NvMaterialLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4587752E6575AA00D05F8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD4587762E6575AA00D05F8B /* NvMaterialUIX.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NvMaterialUIX.bundle; sourceTree = "<group>"; };
+		DD4587772E6575AA00D05F8B /* NvRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NvRefresh.bundle; sourceTree = "<group>"; };
+		DD4587792E6575AA00D05F8B /* NvLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NvLogger.swift; sourceTree = "<group>"; };
+		DD45877A2E6575AA00D05F8B /* NvMaterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NvMaterial.swift; sourceTree = "<group>"; };
+		DD45877B2E6575AA00D05F8B /* NvMaterialCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NvMaterialCenter.swift; sourceTree = "<group>"; };
+		DD45877C2E6575AA00D05F8B /* NvMaterialCenter+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NvMaterialCenter+extension.swift"; sourceTree = "<group>"; };
+		DD45877D2E6575AA00D05F8B /* NvMaterialCenterNetDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NvMaterialCenterNetDelegate.swift; sourceTree = "<group>"; };
+		DD45877E2E6575AA00D05F8B /* NvMaterialDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NvMaterialDatabase.swift; sourceTree = "<group>"; };
+		DD45877F2E6575AA00D05F8B /* NvMaterialLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NvMaterialLibrary.swift; sourceTree = "<group>"; };
+		DD4587802E6575AA00D05F8B /* NvWeakDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NvWeakDictionary.swift; sourceTree = "<group>"; };
+		DD4587822E6575AA00D05F8B /* UIImageView+WebImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+WebImage.swift"; sourceTree = "<group>"; };
+		DD4587842E6575AA00D05F8B /* NvRefreshComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NvRefreshComponent.swift; sourceTree = "<group>"; };
+		DD4587852E6575AA00D05F8B /* NvRefreshConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NvRefreshConst.swift; sourceTree = "<group>"; };
+		DD4587862E6575AA00D05F8B /* NvRefreshFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NvRefreshFooter.swift; sourceTree = "<group>"; };
+		DD4587872E6575AA00D05F8B /* NvRefreshHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NvRefreshHeader.swift; sourceTree = "<group>"; };
+		DD4587882E6575AA00D05F8B /* NvRefreshTrailer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NvRefreshTrailer.swift; sourceTree = "<group>"; };
+		DD45878A2E6575AA00D05F8B /* NvRefreshAutoFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NvRefreshAutoFooter.swift; sourceTree = "<group>"; };
+		DD45878B2E6575AA00D05F8B /* NvRefreshAutoHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NvRefreshAutoHeader.swift; sourceTree = "<group>"; };
+		DD45878C2E6575AA00D05F8B /* NvRefreshAutoTrailer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NvRefreshAutoTrailer.swift; sourceTree = "<group>"; };
+		DD45878E2E6575AA00D05F8B /* Bundle+Refresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Refresh.swift"; sourceTree = "<group>"; };
+		DD45878F2E6575AA00D05F8B /* UIScrollView+Refresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Refresh.swift"; sourceTree = "<group>"; };
+		DD4587902E6575AA00D05F8B /* UIView+Refresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Refresh.swift"; sourceTree = "<group>"; };
+		DD4587932E6575AA00D05F8B /* NvAssetDownloadCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NvAssetDownloadCell.swift; sourceTree = "<group>"; };
+		DD4587942E6575AA00D05F8B /* NvAssetEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NvAssetEmptyView.swift; sourceTree = "<group>"; };
+		DD4587952E6575AA00D05F8B /* NvCarouselLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NvCarouselLabel.swift; sourceTree = "<group>"; };
+		DD4587972E6575AA00D05F8B /* NvMaterialCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NvMaterialCategoryView.swift; sourceTree = "<group>"; };
+		DD4587982E6575AA00D05F8B /* NvMaterialCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NvMaterialCell.swift; sourceTree = "<group>"; };
+		DD4587992E6575AA00D05F8B /* NvMaterialListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NvMaterialListView.swift; sourceTree = "<group>"; };
+		DD45879A2E6575AA00D05F8B /* NvMaterialListViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NvMaterialListViewLayout.swift; sourceTree = "<group>"; };
+		DD45879B2E6575AA00D05F8B /* NvMaterialUIXEnvs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NvMaterialUIXEnvs.swift; sourceTree = "<group>"; };
+		DD45879C2E6575AA00D05F8B /* UICollectionView+NvReusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+NvReusable.swift"; sourceTree = "<group>"; };
+		DD45879F2E6575AA00D05F8B /* NvMaterialLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NvMaterialLibrary.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A4E9C4027B79F45006B1FC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A4E9C3927B79F45006B1FC8 = {
+			isa = PBXGroup;
+			children = (
+				DD4587A02E6575AA00D05F8B /* NvMaterialLibrary */,
+				0A4E9C4427B79F45006B1FC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A4E9C4427B79F45006B1FC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A4E9C4327B79F45006B1FC8 /* NvMaterialLibrary.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD4587782E6575AA00D05F8B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DD4587752E6575AA00D05F8B /* Assets.xcassets */,
+				DD4587762E6575AA00D05F8B /* NvMaterialUIX.bundle */,
+				DD4587772E6575AA00D05F8B /* NvRefresh.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DD4587812E6575AA00D05F8B /* NvMaterialCenter */ = {
+			isa = PBXGroup;
+			children = (
+				DD4587792E6575AA00D05F8B /* NvLogger.swift */,
+				DD45877A2E6575AA00D05F8B /* NvMaterial.swift */,
+				DD45877B2E6575AA00D05F8B /* NvMaterialCenter.swift */,
+				DD45877C2E6575AA00D05F8B /* NvMaterialCenter+extension.swift */,
+				DD45877D2E6575AA00D05F8B /* NvMaterialCenterNetDelegate.swift */,
+				DD45877E2E6575AA00D05F8B /* NvMaterialDatabase.swift */,
+				DD45877F2E6575AA00D05F8B /* NvMaterialLibrary.swift */,
+				DD4587802E6575AA00D05F8B /* NvWeakDictionary.swift */,
+			);
+			path = NvMaterialCenter;
+			sourceTree = "<group>";
+		};
+		DD4587832E6575AA00D05F8B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DD4587822E6575AA00D05F8B /* UIImageView+WebImage.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		DD4587892E6575AA00D05F8B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DD4587842E6575AA00D05F8B /* NvRefreshComponent.swift */,
+				DD4587852E6575AA00D05F8B /* NvRefreshConst.swift */,
+				DD4587862E6575AA00D05F8B /* NvRefreshFooter.swift */,
+				DD4587872E6575AA00D05F8B /* NvRefreshHeader.swift */,
+				DD4587882E6575AA00D05F8B /* NvRefreshTrailer.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		DD45878D2E6575AA00D05F8B /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				DD45878A2E6575AA00D05F8B /* NvRefreshAutoFooter.swift */,
+				DD45878B2E6575AA00D05F8B /* NvRefreshAutoHeader.swift */,
+				DD45878C2E6575AA00D05F8B /* NvRefreshAutoTrailer.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		DD4587912E6575AA00D05F8B /* Ext */ = {
+			isa = PBXGroup;
+			children = (
+				DD45878E2E6575AA00D05F8B /* Bundle+Refresh.swift */,
+				DD45878F2E6575AA00D05F8B /* UIScrollView+Refresh.swift */,
+				DD4587902E6575AA00D05F8B /* UIView+Refresh.swift */,
+			);
+			path = Ext;
+			sourceTree = "<group>";
+		};
+		DD4587922E6575AA00D05F8B /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				DD4587892E6575AA00D05F8B /* Base */,
+				DD45878D2E6575AA00D05F8B /* Custom */,
+				DD4587912E6575AA00D05F8B /* Ext */,
+			);
+			path = Refresh;
+			sourceTree = "<group>";
+		};
+		DD4587962E6575AA00D05F8B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DD4587932E6575AA00D05F8B /* NvAssetDownloadCell.swift */,
+				DD4587942E6575AA00D05F8B /* NvAssetEmptyView.swift */,
+				DD4587952E6575AA00D05F8B /* NvCarouselLabel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DD45879D2E6575AA00D05F8B /* NvMaterialUIX */ = {
+			isa = PBXGroup;
+			children = (
+				DD4587832E6575AA00D05F8B /* Category */,
+				DD4587922E6575AA00D05F8B /* Refresh */,
+				DD4587962E6575AA00D05F8B /* Views */,
+				DD4587972E6575AA00D05F8B /* NvMaterialCategoryView.swift */,
+				DD4587982E6575AA00D05F8B /* NvMaterialCell.swift */,
+				DD4587992E6575AA00D05F8B /* NvMaterialListView.swift */,
+				DD45879A2E6575AA00D05F8B /* NvMaterialListViewLayout.swift */,
+				DD45879B2E6575AA00D05F8B /* NvMaterialUIXEnvs.swift */,
+				DD45879C2E6575AA00D05F8B /* UICollectionView+NvReusable.swift */,
+			);
+			path = NvMaterialUIX;
+			sourceTree = "<group>";
+		};
+		DD45879E2E6575AA00D05F8B /* SourceFiles */ = {
+			isa = PBXGroup;
+			children = (
+				DD4587812E6575AA00D05F8B /* NvMaterialCenter */,
+				DD45879D2E6575AA00D05F8B /* NvMaterialUIX */,
+			);
+			path = SourceFiles;
+			sourceTree = "<group>";
+		};
+		DD4587A02E6575AA00D05F8B /* NvMaterialLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				DD4587782E6575AA00D05F8B /* Resources */,
+				DD45879E2E6575AA00D05F8B /* SourceFiles */,
+				DD45879F2E6575AA00D05F8B /* NvMaterialLibrary.h */,
+			);
+			path = NvMaterialLibrary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A4E9C3E27B79F45006B1FC8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4587A12E6575AA00D05F8B /* NvMaterialLibrary.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0A4E9C4227B79F45006B1FC8 /* NvMaterialLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A4E9C4A27B79F45006B1FC8 /* Build configuration list for PBXNativeTarget "NvMaterialLibrary" */;
+			buildPhases = (
+				0A4E9C3E27B79F45006B1FC8 /* Headers */,
+				0A4E9C3F27B79F45006B1FC8 /* Sources */,
+				0A4E9C4027B79F45006B1FC8 /* Frameworks */,
+				0A4E9C4127B79F45006B1FC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NvMaterialLibrary;
+			productName = NvNetwork;
+			productReference = 0A4E9C4327B79F45006B1FC8 /* NvMaterialLibrary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A4E9C3A27B79F45006B1FC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					0A4E9C4227B79F45006B1FC8 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 0A4E9C3D27B79F45006B1FC8 /* Build configuration list for PBXProject "NvMaterialLibrary" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A4E9C3927B79F45006B1FC8;
+			productRefGroup = 0A4E9C4427B79F45006B1FC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A4E9C4227B79F45006B1FC8 /* NvMaterialLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A4E9C4127B79F45006B1FC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4587A22E6575AA00D05F8B /* NvMaterialUIX.bundle in Resources */,
+				DD4587A32E6575AA00D05F8B /* NvRefresh.bundle in Resources */,
+				DD4587A42E6575AA00D05F8B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A4E9C3F27B79F45006B1FC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4587A52E6575AA00D05F8B /* NvRefreshConst.swift in Sources */,
+				DD4587A62E6575AA00D05F8B /* NvMaterial.swift in Sources */,
+				DD4587A72E6575AA00D05F8B /* NvAssetDownloadCell.swift in Sources */,
+				DD4587A82E6575AA00D05F8B /* NvMaterialListViewLayout.swift in Sources */,
+				DD4587A92E6575AA00D05F8B /* NvRefreshHeader.swift in Sources */,
+				DD4587AA2E6575AA00D05F8B /* NvCarouselLabel.swift in Sources */,
+				DD4587AB2E6575AA00D05F8B /* NvMaterialCell.swift in Sources */,
+				DD4587AC2E6575AA00D05F8B /* UICollectionView+NvReusable.swift in Sources */,
+				DD4587AD2E6575AA00D05F8B /* NvRefreshAutoTrailer.swift in Sources */,
+				DD4587AE2E6575AA00D05F8B /* NvRefreshTrailer.swift in Sources */,
+				DD4587AF2E6575AA00D05F8B /* NvMaterialCenter+extension.swift in Sources */,
+				DD4587B02E6575AA00D05F8B /* NvRefreshAutoHeader.swift in Sources */,
+				DD4587B12E6575AA00D05F8B /* UIView+Refresh.swift in Sources */,
+				DD4587B22E6575AA00D05F8B /* Bundle+Refresh.swift in Sources */,
+				DD4587B32E6575AA00D05F8B /* NvRefreshComponent.swift in Sources */,
+				DD4587B42E6575AA00D05F8B /* NvLogger.swift in Sources */,
+				DD4587B52E6575AA00D05F8B /* NvRefreshAutoFooter.swift in Sources */,
+				DD4587B62E6575AA00D05F8B /* NvMaterialCenter.swift in Sources */,
+				DD4587B72E6575AA00D05F8B /* NvMaterialListView.swift in Sources */,
+				DD4587B82E6575AA00D05F8B /* NvMaterialUIXEnvs.swift in Sources */,
+				DD4587B92E6575AA00D05F8B /* NvMaterialLibrary.swift in Sources */,
+				DD4587BA2E6575AA00D05F8B /* NvMaterialCategoryView.swift in Sources */,
+				DD4587BB2E6575AA00D05F8B /* UIImageView+WebImage.swift in Sources */,
+				DD4587BC2E6575AA00D05F8B /* NvMaterialDatabase.swift in Sources */,
+				DD4587BD2E6575AA00D05F8B /* UIScrollView+Refresh.swift in Sources */,
+				DD4587BE2E6575AA00D05F8B /* NvMaterialCenterNetDelegate.swift in Sources */,
+				DD4587BF2E6575AA00D05F8B /* NvAssetEmptyView.swift in Sources */,
+				DD4587C02E6575AA00D05F8B /* NvRefreshFooter.swift in Sources */,
+				DD4587C12E6575AA00D05F8B /* NvWeakDictionary.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0A4E9C4827B79F45006B1FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0A4E9C4927B79F45006B1FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0A4E9C4B27B79F45006B1FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.charles.NvNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A4E9C4C27B79F45006B1FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.charles.NvNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A4E9C3D27B79F45006B1FC8 /* Build configuration list for PBXProject "NvMaterialLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4E9C4827B79F45006B1FC8 /* Debug */,
+				0A4E9C4927B79F45006B1FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A4E9C4A27B79F45006B1FC8 /* Build configuration list for PBXNativeTarget "NvMaterialLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4E9C4B27B79F45006B1FC8 /* Debug */,
+				0A4E9C4C27B79F45006B1FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A4E9C3A27B79F45006B1FC8 /* Project object */;
+}
