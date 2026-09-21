@@ -10,7 +10,7 @@ let package = Package(
     products: [
         .library(
             name: "NvMaterialLibrary",
-            type: .dynamic,
+            type: .static,
             targets: ["NvMaterialLibrary"]
         ),
     ],
