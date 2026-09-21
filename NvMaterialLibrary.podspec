@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "meishe" => "meicamapp@meishesdk.com" }
-  spec.source       = { :git => "https://gitlab.com/matenetworks/apprtc/NvMaterialLibrary.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/bcinnovation/NvMaterialLibrary.git", :tag => "#{spec.version}" }
 
   spec.platform              = :ios
   spec.static_framework      = false

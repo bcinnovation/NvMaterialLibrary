@@ -15,7 +15,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://gitlab.com/matenetworks/apprtc/NvEffectFrameworks.git", branch: "main"),
+        .package(url: "https://github.com/bcinnovation/NvEffectFrameworks.git", branch: "main"),
         .package(url: "https://github.com/marmelroy/Zip.git", .upToNextMinor(from: "2.1.0")),
         .package(url: "https://github.com/SDWebImage/SDWebImageWebPCoder.git", from: "0.3.0"),
         //.package(name: "NvMeicam", path: "../NvMeicam"), // 如果有的话
